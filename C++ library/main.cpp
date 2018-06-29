@@ -7,9 +7,17 @@
 //
 
 #include <iostream>
+#include "Sorts/bubblesort.cpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
+    int arr[] = {5,8,6,2,1};
+    BubbleSort<int>::sort(arr, 5);
+    
+    for(int a : arr)
+    {
+        std::cout << a << std::endl;
+    }
     return 0;
 }
