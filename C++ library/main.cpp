@@ -7,14 +7,14 @@
 //
 
 #include <iostream>
-#include "Sorts/bubblesort.cpp"
+#include "Sorts/sort.hpp"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+
     std::cout << "Hello, World!\n";
-    int arr[] = {5,8,6,2,1};
-    BubbleSort<int>::sort(arr, 5);
-    
+    int arr[] = {5,8,6,2};
+    //Sort<int>::bubbleSort(arr,4,SortOrder::Desc);
+    Sort<int>::insertionSort(arr, 4,SortOrder::Desc);
     for(int a : arr)
     {
         std::cout << a << std::endl;

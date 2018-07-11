@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E89FCD2B20E67D080017E0DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89FCD2A20E67D080017E0DE /* main.cpp */; };
-		E89FCD3420E67DCA0017E0DE /* bubblesort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89FCD3220E67DCA0017E0DE /* bubblesort.cpp */; };
+		E89FCD3420E67DCA0017E0DE /* sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E89FCD3220E67DCA0017E0DE /* sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		E89FCD2720E67D080017E0DE /* C++ library */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ library"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89FCD2A20E67D080017E0DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E89FCD3220E67DCA0017E0DE /* bubblesort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubblesort.cpp; sourceTree = "<group>"; };
-		E89FCD3320E67DCA0017E0DE /* bubblesort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = bubblesort.hpp; sourceTree = "<group>"; };
+		E89FCD3220E67DCA0017E0DE /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
+		E89FCD3320E67DCA0017E0DE /* sort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 		E89FCD3120E67DA80017E0DE /* Sorts */ = {
 			isa = PBXGroup;
 			children = (
-				E89FCD3220E67DCA0017E0DE /* bubblesort.cpp */,
-				E89FCD3320E67DCA0017E0DE /* bubblesort.hpp */,
+				E89FCD3220E67DCA0017E0DE /* sort.cpp */,
+				E89FCD3320E67DCA0017E0DE /* sort.hpp */,
 			);
 			path = Sorts;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E89FCD2B20E67D080017E0DE /* main.cpp in Sources */,
-				E89FCD3420E67DCA0017E0DE /* bubblesort.cpp in Sources */,
+				E89FCD3420E67DCA0017E0DE /* sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
